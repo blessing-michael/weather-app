@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+  }
+  body {
+    background: url(https://images.pexels.com/photos/907485/pexels-photo-907485.jpeg?auto=compress&cs=tinysrgb&w=800);
+    background-repeat: none;
+    background-size: cover;
+  }
+  .img-div {
+    width: 400px;
+    height: 200px;
+    border: 2px solid purple;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    visibility: hidden;
+  }
+  .gifresponse {
+    width: 100%;
+    height: 100%;
+  }
+  .main-Container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 5%;
+  }
+  .formDiv {
+    width: 250px;
+    height: 250px;
+    padding: 15px;
+    border: 1px solid purple;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+  }
+  .resultdiv {
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    padding: 15px;
+    border: 1px solid purple;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    position: relative;
+    border-left: 3px solid purple;
+    visibility: hidden;
+  }
+  .message-alert {
+    width: 400px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    right: 30%;
+    border-radius: 5px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    visibility: hidden;
+  }
+  #form {
+    margin-left: 10%;
+  }
+  #btn,
+  #clear-Btn {
+    margin-left: 10%;
+    margin-top: 3%;
+    background-color: purple;
+    color: whitesmoke;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    width: 70%;
+    text-transform: capitalize;
+  }
+  input {
+    margin-bottom: 3%;
+    margin-top: 4%;
+  }
+  #label-header {
+    font-weight: bold;
+    text-transform: capitalize;
+    font-style: italic;
+  }
+  .dash {
+    border-bottom: 1px solid purple;
+    width: 100%;
+    position: absolute;
+    left: 0.5%;
+  }
+  p {
+    margin-top: 8%;
+    margin-bottom: 4%;
+    text-transform: capitalize;
+  }
+  #message1,
+  #message2 {
+    margin-top: 0;
+  }
+  nav {
+    background-color: whitesmoke;
+    background-color: rgb(52, 46, 46);
+    display: flex;
+    padding: 10px 10px;
+  }
+  #logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  #title {
+    color: whitesmoke;
+    text-transform: capitalize;
+    margin-left: 1%;
+  }
+  #info-header {
+    font-weight: bold;
+  }
+  input::placeholder {
+    text-transform: capitalize;
+  }

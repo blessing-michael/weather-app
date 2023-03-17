@@ -1,1 +1,1 @@
-console.log("hiii there.........");
+(()=>{"use strict";console.log(function(){let e="c620".split("").reverse().join(""),i=["2b27d9d","0bea63","6f3c17","e0dd8a","0fc"].join("").split("").join("").split("63");return i[0]+i[1]+e}(),"hi")})();
