@@ -1,9 +1,8 @@
-// console.log('hiii there.........66666')
-
-import { keygen } from "./key";
+import { takeLocationAPI } from "./app";
+import { gifAPI } from "./app";
 
 function component() {
-console.log(keygen(), "hi")
-
+  takeLocationAPI();
+  gifAPI();
 }
-component()
+component();
