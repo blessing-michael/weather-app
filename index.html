@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weather ap</title>
+    <link rel="stylesheet" href="../src/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img
+          src="https://media2.giphy.com/media/1Fm7jEapE18HwS6fkT/200w.webp?cid=ecf05e478drvaqbxyhfh6wvksgho8i3huwus1c4tevlwx71k&rid=200w.webp&ct=g"
+          alt=""
+          id="logo"
+        />
+      </div>
+      <h2 id="title">Weather app</h2>
+    </nav>
+    <div class="main-Container">
+      <div class="formDiv">
+        <form action="" id="form">
+          <label for="" id="label-header"
+            >Search for weather info by location</label
+          >
+          <input type="text" id="city" placeholder="Enter City..." />
+          <input type="text" id="state" placeholder="Enter State...." />
+          <input
+            type="text"
+            id="country"
+            placeholder="Enter Country Code (eg. Ng..)"
+          />
+        </form>
+        <button id="btn">search</button>
+        <button id="clear-Btn">clear</button>
+      </div>
+      <div class="messageresult">
+        <div class="resultdiv">
+          <p id="info-header"></p>
+          <div class="dash"></div>
+          <p id="info1"></p>
+          <div class="dash"></div>
+          <p id="info2"></p>
+          <div class="dash"></div>
+          <p id="info3"></p>
+          <div class="dash"></div>
+          <p id="info4"></p>
+          <div class="dash"></div>
+          <p id="info5"></p>
+        </div>
+        <div class="message-alert">
+          <h4>alert;</h4>
+          <p id="message1"></p>
+        </div>
+      </div>
+
+      <div class="img-div">
+        <img class="gifresponse" src="" alt="" />
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
