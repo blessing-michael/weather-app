@@ -1,6 +1,6 @@
 # **Weather App**
 
-![](/weather-app/images/weather-app-img.png)
+![](images/weather-app-img.png)
 
 ## **Live Link**
 Visit the [Weather App](https://blessing-michael.github.io/weather-app/) to get started
@@ -40,7 +40,7 @@ The weather app Provides users with a detailed meteorological report for a city 
 ## **Authors**
   * LinkedIn: [Blessing Michael](https://www.linkedin.com/in/blessing-asuquo-4509981a2/)
   * Twitter: [Didy](https://twitter.com/toonmystory)
-  * GitHub: [blessing-michal](https://github.com/blessing-michael)
+  * GitHub: [blessing-michael](https://github.com/blessing-michael)
 
 ## **Acknowledgments**
   * [Pexels creatives](https://www.pexels.com/) for background images
