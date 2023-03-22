@@ -33,7 +33,7 @@ The weather app Provides users with a detailed meteorological report for a city 
   * Create a ```.env``` file in the root directory with the following code ``` WEATHER_URL=api.openweathermap.org/data/2.5/weather
   API_KEY='INSERT YOUR API KEY HERE' ```
   * Run ```npm install``` to install the needed packages and dependencies.
-  * Run ````npm run start``` to fire up a local server with live reloading.
+  * Run ```npm run start``` to fire up a local server with live reloading.
   * If not already redirected, visit ```http://localhost:8080/``` in your browser to use the Weather App with dev server.
   * To terminate the server, enter ```Ctrl + C``` in your terminal
 
